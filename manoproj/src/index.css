@@ -1,0 +1,56 @@
+:root {
+  font-family: 'IBM Plex Sans Arabic', 'Tajawal', 'Noto Sans Arabic', sans-serif;
+  color: #1b2b25;
+  background: #f2f5f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  font-weight: 400;
+  direction: rtl;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  min-height: 100vh;
+  background: #f2f5f2;
+}
+
+body {
+  color: #1b2b25;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.98;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
